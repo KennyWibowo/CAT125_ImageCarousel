@@ -15,6 +15,14 @@ strong {
     color: #555;
 }
 
+a {
+  color: #85c1fc;
+}
+
+a:hover {
+  color: #1287f9;
+}
+
 img.story {
   height: 600px;
   border-radius: 25px;
@@ -22,9 +30,9 @@ img.story {
 
 .game {
   background-color: #EEE;
-  width: 600px;
+  width: 450px;
   text-align: center;
-  border-radius: 7px;
+  border-radius: 15px;
   opacity: 1;
   padding: 1em;
 }
@@ -64,6 +72,16 @@ img.story {
 
 p.item-text {
   font-size: 2em
+}
+
+.end-credits {
+  width: 450px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 2em;
+  vertical-align: middle;
+  background-color: #022e59;
+  color: #d2e8fe;
 }
 
 .a {
