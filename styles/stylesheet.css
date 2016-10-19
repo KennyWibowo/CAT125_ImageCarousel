@@ -1,7 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 body {
-  background: #333;
+  background: #FFF;
   padding: 70px 0;
-  font: 15px/20px Arial, sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+img.story {
+  height: 300px;
+  border-radius: 25px;
+}
+
+.game {
+  background-color: #DDD;
+  width: 300px;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 1;
 }
 
 .container {
@@ -23,80 +38,59 @@ body {
 .item {
   display: block;
   position: absolute;
-  background: #000;
   width: 250px;
   height: 200px;
-  line-height: 200px;
-  font-size: 5em;
   text-align: center;
-  color: #FFF;
-  opacity: 0.95;
-  border-radius: 10px;
+  color: #000;
 }
 
 .a {
   transform: rotateY(0deg) translateZ(750px);
-  background: #8c6239;
 }
 .b {
   transform: rotateY(22.5deg) translateZ(750px);
-  background: #ed1c24;
 }
 .c {
   transform: rotateY(45deg) translateZ(750px);
-  background: #0072bc;
 }
 .d {
   transform: rotateY(67.5deg) translateZ(750px);
-  background: #39b54a;
 }
 .e {
   transform: rotateY(90deg) translateZ(750px);
-  background: #f26522;
 }
 .f {
   transform: rotateY(112.5deg) translateZ(750px);
-  background: #630460;
 } 
 .g {
   transform: rotateY(135deg) translateZ(750px);
-  background: #8c6239;
 } 
 .h {
   transform: rotateY(157.5deg) translateZ(750px);
-  background: #8c6239;
 } 
 .i {
   transform: rotateY(180deg) translateZ(750px);
-  background: #8c6239;
 } 
 .j {
   transform: rotateY(202.5deg) translateZ(750px);
-  background: #8c6239;
 } 
 .k {
   transform: rotateY(225deg) translateZ(750px);
-  background: #8c6239;
 } 
 .l {
   transform: rotateY(247.5deg) translateZ(750px);
-  background: #8c6239;
 } 
 .m {
   transform: rotateY(270deg) translateZ(750px);
-  background: #8c6239;
 } 
 .n {
   transform: rotateY(292.5deg) translateZ(750px);
-  background: #8c6239;
-} 
+}
 .o {
   transform: rotateY(315deg) translateZ(750px);
-  background: #8c6239;
-} 
+}
 .p {
   transform: rotateY(337.5deg) translateZ(750px);
-  background: #8c6239;
 }
 
 .next, .prev {
