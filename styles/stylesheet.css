@@ -7,24 +7,40 @@ body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
+h1,
+h2,
+h3,
+b,
+strong {
+    color: #555;
+}
+
 img.story {
-  height: 300px;
+  height: 600px;
   border-radius: 25px;
 }
 
 .game {
   background-color: #EEE;
-  width: 300px;
+  width: 600px;
   text-align: center;
   border-radius: 7px;
   opacity: 1;
   padding: 1em;
 }
 
+.game-h1 {
+  font-size: 4em;
+}
+
+.game-p {
+  font-size: 2em;
+}
+
 .container {
   margin: 0 auto;
-  width: 250px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   position: relative;
   perspective: 2000px;
 }
@@ -40,59 +56,63 @@ img.story {
 .item {
   display: block;
   position: absolute;
-  width: 250px;
-  height: 200px;
+  width: 500px;
+  height: 400px;
   text-align: center;
   color: #000;
 }
 
+p.item-text {
+  font-size: 2em
+}
+
 .a {
-  transform: rotateY(0deg) translateZ(750px);
+  transform: rotateY(0deg) translateZ(750px) scale(0.5);
 }
 .b {
-  transform: rotateY(22.5deg) translateZ(750px);
+  transform: rotateY(22.5deg) translateZ(750px) scale(0.5);
 }
 .c {
-  transform: rotateY(45deg) translateZ(750px);
+  transform: rotateY(45deg) translateZ(750px) scale(0.5);
 }
 .d {
-  transform: rotateY(67.5deg) translateZ(750px);
+  transform: rotateY(67.5deg) translateZ(750px) scale(0.5);
 }
 .e {
-  transform: rotateY(90deg) translateZ(750px);
+  transform: rotateY(90deg) translateZ(750px) scale(0.5);
 }
 .f {
-  transform: rotateY(112.5deg) translateZ(750px);
+  transform: rotateY(112.5deg) translateZ(750px) scale(0.5);
 } 
 .g {
-  transform: rotateY(135deg) translateZ(750px);
+  transform: rotateY(135deg) translateZ(750px) scale(0.5);
 } 
 .h {
-  transform: rotateY(157.5deg) translateZ(750px);
+  transform: rotateY(157.5deg) translateZ(750px) scale(0.5);
 } 
 .i {
-  transform: rotateY(180deg) translateZ(750px);
+  transform: rotateY(180deg) translateZ(750px) scale(0.5);
 } 
 .j {
-  transform: rotateY(202.5deg) translateZ(750px);
+  transform: rotateY(202.5deg) translateZ(750px) scale(0.5);
 } 
 .k {
-  transform: rotateY(225deg) translateZ(750px);
+  transform: rotateY(225deg) translateZ(750px) scale(0.5);
 } 
 .l {
-  transform: rotateY(247.5deg) translateZ(750px);
+  transform: rotateY(247.5deg) translateZ(750px) scale(0.5);
 } 
 .m {
-  transform: rotateY(270deg) translateZ(750px);
+  transform: rotateY(270deg) translateZ(750px) scale(0.5);
 } 
 .n {
-  transform: rotateY(292.5deg) translateZ(750px);
+  transform: rotateY(292.5deg) translateZ(750px) scale(0.5);
 }
 .o {
-  transform: rotateY(315deg) translateZ(750px);
+  transform: rotateY(315deg) translateZ(750px) scale(0.5);
 }
 .p {
-  transform: rotateY(337.5deg) translateZ(750px);
+  transform: rotateY(337.5deg) translateZ(750px) scale(0.5);
 }
 
 .next, .prev {
