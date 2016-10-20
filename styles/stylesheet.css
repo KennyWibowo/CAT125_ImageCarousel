@@ -24,17 +24,17 @@ a:hover {
 }
 
 img.story {
-  height: 600px;
+  width: 400px;
   border-radius: 25px;
 }
 
 .game {
   background-color: #EEE;
-  width: 450px;
+  max-width: 450px;
   text-align: center;
   border-radius: 15px;
   opacity: 1;
-  padding: 1em;
+  padding: 3em;
 }
 
 .game-h1 {
@@ -45,9 +45,9 @@ img.story {
   font-size: 2em;
 }
 
-.container {
+.carousel-container {
   margin: 0 auto;
-  width: 500px;
+  width: 400px;
   height: 400px;
   position: relative;
   perspective: 2000px;
@@ -64,8 +64,8 @@ img.story {
 .item {
   display: block;
   position: absolute;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  max-height: 400px;
   text-align: center;
   color: #000;
 }
@@ -75,13 +75,22 @@ p.item-text {
 }
 
 .end-credits {
-  width: 450px;
-  height: 500px;
+  max-width: 450px;
+  max-height: 500px;
   border-radius: 15px;
   padding: 2em;
   vertical-align: middle;
   background-color: #022e59;
   color: #d2e8fe;
+}
+
+.end-credit-text {
+  padding-top: 2em; 
+  padding-bottom: 2em;
+}
+
+.end-credit-name {
+  padding-bottom: 2em;
 }
 
 .a {
@@ -127,7 +136,7 @@ p.item-text {
   transform: rotateY(292.5deg) translateZ(750px) scale(0.5);
 }
 .o {
-  transform: rotateY(315deg) translateZ(750px) scale(0.5);
+  transform: rotateY(315deg) translateZ(750px) scale(0.5) translateY(25%);
 }
 .p {
   transform: rotateY(337.5deg) translateZ(750px) scale(0.5);
